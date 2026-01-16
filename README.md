@@ -15,9 +15,33 @@ Demo
 ![image](https://user-images.githubusercontent.com/719481/116904118-29674080-abf2-11eb-8789-62c36edc4f9b.png)
 Please check out our live [demo](http://www.houseganpp.com).
 
+Installation
+------
+### Quick Install (Editable Mode)
+
+Install as an editable Python package for development:
+
+```bash
+cd /path/to/houseganpp
+pip install -e .
+```
+
+This allows you to import `houseganpp` from anywhere and see code changes immediately.
+
+### Usage in Code
+
+```python
+# Import modules
+from houseganpp.models import models
+from houseganpp.dataset import floorplan_dataset_maps_functional_high_res as fp_dataset
+from houseganpp.misc import utils
+```
+
+For detailed installation options and troubleshooting, see [INSTALL.md](INSTALL.md).
+
 Running pretrained models
 ------
-***See requirements.txt for checking the dependencies before running the code***
+***See requirements.txt or install the package with `pip install -e .`***
 
 For running a pretrained model check out the following steps:
 - Run ***python test.py***.

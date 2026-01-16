@@ -32,7 +32,7 @@ import cv2
 from torchvision.utils import save_image
 import networkx as nx
 import copy
-from misc.intersections import doIntersect
+from .intersections import doIntersect
 import svgwrite
 import random
 import matplotlib.pyplot as plt

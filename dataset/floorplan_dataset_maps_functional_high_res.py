@@ -25,7 +25,7 @@ import PIL
 import glob
 from PIL import Image, ImageDraw, ImageOps, ImageFilter
 import random
-from misc.utils import ROOM_CLASS, ID_COLOR
+from ..misc.utils import ROOM_CLASS, ID_COLOR
 
 def filter_graphs(graphs, min_h=0.03, min_w=0.03):
     new_graphs = []

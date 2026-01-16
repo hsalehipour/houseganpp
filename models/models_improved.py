@@ -15,7 +15,7 @@ import torch.nn.functional as F
 import torch
 from PIL import Image, ImageDraw, ImageOps
 import torch.nn.utils.spectral_norm as spectral_norm
-from models.model_resnet import ResidualBlock
+from .model_resnet import ResidualBlock
 
 def add_pool(x, nd_to_sample):
     dtype, device = x.dtype, x.device
